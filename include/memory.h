@@ -9,8 +9,9 @@ typedef struct {
     int pid;             // Identificador del proceso
 } MemoryBlock;
 
-void init_memory(MemoryBlock *memory, int size);
-void allocate_memory(MemoryBlock *memory, int size, int pid, int blocks_neded);
-void free_memory(MemoryBlock *memory, int size, int pid);
+// Funciones
+void init_memory(MemoryBlock *memory, int size); // Inicializar la memoria
+void allocate_memory(MemoryBlock *memory, int size, int pid, int blocks_neded); // Asignar memoria
+void free_memory(MemoryBlock *memory, int size, int pid);  // Liberar memoria 
 
 #endif

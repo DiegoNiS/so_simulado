@@ -13,7 +13,7 @@ typedef struct {
 } Process;
 
 // Funciones
-void create_process(Process *process, int pid, char *name, int burst_time, int arrival_time, int priority);
-void display_process(const Process *p);
+void create_process(Process *process, int pid, char *name, int burst_time, int arrival_time, int priority); // Crear un proceso
+void display_process(const Process *p); // Mostrar información importante de un proceso
 
 #endif
