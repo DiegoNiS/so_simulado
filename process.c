@@ -14,5 +14,5 @@ void create_process(Process *p, int pid, char *name, int burst_time, int arrival
 
 // Mostrar información importante de un proceso
 void display_process(const Process *p) {
-    printf("PID: %d, Name: %s, State: %d, Priority: %d\n", p->pid, p->name, p->state, p->priority);
+    printf("PID: %d, Nombre: %s, Estado: %d, Prioridad: %d\n", p->pid, p->name, p->state, p->priority);
 }
