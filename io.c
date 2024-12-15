@@ -6,7 +6,7 @@
 // Nodo de la cola de E/S
 typedef struct IOQueueNode {
     int pid;                    // Identificador del proceso
-    struct IoQueueNode *next;   // Siguiente nodo
+    struct IOQueueNode *next;   // Siguiente nodo
 } IOQueueNode;
 
 static IOQueueNode *io_queue_head = NULL; // Inicializar la cola de E/S

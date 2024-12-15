@@ -11,7 +11,7 @@ typedef struct {
 
 // Funciones
 void init_memory(MemoryBlock *memory, int size); // Inicializar la memoria
-void allocate_memory(MemoryBlock *memory, int size, int pid, int blocks_neded); // Asignar memoria
+int allocate_memory(MemoryBlock *memory, int size, int pid, int blocks_neded); // Asignar memoria
 void free_memory(MemoryBlock *memory, int size, int pid);  // Liberar memoria 
 
 #endif
